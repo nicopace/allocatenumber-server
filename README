@@ -1,0 +1,7 @@
+This repo has the cgi-script that gets called when you need ask for a number to the webph.one system.
+In order for this to work, you need to copy the file allocatenumber.py in the cgi-bin of your web server, and allow cgi-bin execution in your web server.
+An example config is provided for Apache.
+
+Copy the enable-cgi-bin.conf to /etc/apache/conf.d/ and include it from your site config.
+
+Copy the allocatenumber.py file to your cgi-bin site.
